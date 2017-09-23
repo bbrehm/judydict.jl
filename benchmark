@@ -1,0 +1,37 @@
+Trivial benchmark with 1000000 elements
+Timings for SortedDict{Int64,Int64}, setindex!, getindex, findnext, iterate, delete!
+  1.118834 seconds (136 allocations: 75.508 MiB, 2.99% gc time)
+  0.898091 seconds (4 allocations: 160 bytes)
+  1.137530 seconds (4 allocations: 160 bytes)
+  0.234227 seconds (5 allocations: 176 bytes)
+  1.804623 seconds (42 allocations: 18.002 MiB, 11.20% gc time)
+Timings for SortedDict{Int64,Int64}, setindex!, getindex, findnext, iterate, delete!
+  1.181085 seconds (56 allocations: 75.502 MiB, 2.67% gc time)
+  0.870137 seconds (4 allocations: 160 bytes)
+  1.118495 seconds (4 allocations: 160 bytes)
+  0.233427 seconds (5 allocations: 176 bytes)
+  1.361959 seconds (42 allocations: 18.002 MiB)
+Timings for judydict, setindex!, getindex, findnext, iterate, delete!
+  0.422331 seconds (4 allocations: 160 bytes)
+  0.253460 seconds (4 allocations: 160 bytes)
+  0.295842 seconds (4 allocations: 160 bytes)
+  0.131283 seconds (5 allocations: 176 bytes)
+  0.542283 seconds (4 allocations: 160 bytes)
+reported memory usage: 25273168
+Timings for judydict, setindex!, getindex, findnext, iterate, delete!
+  0.421264 seconds (4 allocations: 160 bytes)
+  0.252296 seconds (4 allocations: 160 bytes)
+  0.295437 seconds (4 allocations: 160 bytes)
+  0.131166 seconds (5 allocations: 176 bytes)
+  0.523614 seconds (4 allocations: 160 bytes)
+reported memory usage: 25273168
+Timings for Dict{Int64,Int64}, setindex!, getindex, iterate, delete!
+  0.299815 seconds (54 allocations: 65.170 MiB, 11.25% gc time)
+  0.202390 seconds (4 allocations: 160 bytes)
+  0.026194 seconds (5 allocations: 176 bytes)
+  0.167502 seconds (4 allocations: 160 bytes)
+Timings for Dict{Int64,Int64}, setindex!, getindex, iterate, delete!
+  0.276770 seconds (54 allocations: 65.170 MiB, 0.36% gc time)
+  0.191662 seconds (4 allocations: 160 bytes)
+  0.022375 seconds (5 allocations: 176 bytes)
+  0.174108 seconds (4 allocations: 160 bytes)
